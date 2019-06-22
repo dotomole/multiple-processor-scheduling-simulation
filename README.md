@@ -1,4 +1,4 @@
-#OS ASSIGNMENT - Multiple-Processor Scheduling Simulation
+# OS ASSIGNMENT - Multiple-Processor Scheduling Simulation
 
 The goal of this assignment was to gain experience in using the POSIX Pthreads library for thread creations and synchronizations by simulating a Multithreaded CPU scheduler.
 
