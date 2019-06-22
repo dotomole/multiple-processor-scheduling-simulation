@@ -7,7 +7,7 @@ The goal of this assignment was to gain experience in using the POSIX Pthreads l
 correct usage:
 `make`
 
-this will remove any .o and exec files and compile program.
+this will also remove any .o and exec files and compile program.
 
 2. create task_file with create_tasks
 
