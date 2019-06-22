@@ -483,7 +483,7 @@ int main(int argc, char* argv[])
             pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
 
             /*Start threads*/
-            pthread_create(&taskT, NULL, task, (void*)taskArgs);
+            pthread_create(&taskT, &attr, task, (void*)taskArgs);
             pthread_create(&cpu1, &attr, cpu, (void*)cpu1Args);
             pthread_create(&cpu2, &attr, cpu, (void*)cpu2Args);
             pthread_create(&cpu3, &attr, cpu, (void*)cpu3Args);
